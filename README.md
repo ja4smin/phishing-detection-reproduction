@@ -14,7 +14,7 @@ The reproduced results confirmed that Gradient Boosting achieved the best overal
 
 Selected Source:
 
-https://github.com/SumanjaliB/URL-Based-Phishing-Detection-using-Machine-Learning
+https://github.com/BusamSumanjali/URL-Based-Phishing-Detection-using-machine-Learning
 
 Note: The selected source is a GitHub repository rather than a separate article or blog post. Therefore, the same source serves as both the tutorial/documentation and the original code repository.
 
@@ -22,7 +22,7 @@ Note: The selected source is a GitHub repository rather than a separate article 
 
 ## Original GitHub Repository
 
-https://github.com/SumanjaliB/URL-Based-Phishing-Detection-using-Machine-Learning
+https://github.com/BusamSumanjali/URL-Based-Phishing-Detection-using-machine-Learning
 
 ---
 
@@ -36,7 +36,7 @@ Dataset file:
 
 Source repository:
 
-* https://github.com/SumanjaliB/URL-Based-Phishing-Detection-using-Machine-Learning
+https://github.com/BusamSumanjali/URL-Based-Phishing-Detection-using-machine-Learning
 
 According to the original project documentation, the dataset was downloaded from Kaggle:
 

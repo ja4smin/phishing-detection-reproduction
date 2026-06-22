@@ -53,7 +53,7 @@ The dataset contains URL and website-related cybersecurity features used to clas
 Install the required Python packages:
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
+pip install -r requirements.txt
 ```
 
 ### Running the Project

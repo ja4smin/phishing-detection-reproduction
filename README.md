@@ -10,6 +10,57 @@ The reproduced results confirmed that Gradient Boosting achieved the best overal
 
 ---
 
+## Repository Structure
+
+├── Phishing_Detection_Reproduction.ipynb   # Main notebook
+├── phishing.csv                            # Dataset
+├── Report.pdf                              # Final report
+├── requirements.txt                        # Python dependencies
+└── README.md                               # Project overview and results
+
+---
+
+## Final Results Summary
+
+### Model Comparison
+
+| Model | Accuracy |
+|---|---:|
+| Gradient Boosting | 94.62% |
+| Random Forest | 93.93% |
+| MLP | 93.93% |
+| SVM | 93.85% |
+| Logistic Regression | 92.39% |
+| Decision Tree | 92.14% |
+| KNN | 91.79% |
+| Naive Bayes | 66.15% |
+
+### Best Model Performance (Gradient Boosting)
+
+| Metric | Score |
+|---|---:|
+| Accuracy | 94.62% |
+| Precision | 93.75% |
+| Recall | 94.62% |
+| F1-score | 94.18% |
+| MCC | 0.892 |
+| ROC-AUC | 0.992 |
+| PR-AUC | 0.990 |
+
+---
+
+## Key Findings
+
+- Gradient Boosting achieved the best overall performance.
+- HTTPS, AnchorURL, and WebsiteTraffic were identified as the strongest predictors.
+- SMOTE provided only modest improvement on this nearly balanced dataset.
+- Feature-selection validation suggested that retaining all features produced slightly better performance than the reduced feature set.
+- Group-aware evaluation suggested that duplicate-pattern leakage was not a major contributor to the reported performance.
+- Threshold analysis and realistic-prevalence analysis demonstrated that benchmark performance may overestimate real-world effectiveness.
+- URL-based features provide a useful first layer of defense but should be combined with additional signals in real-world phishing detection systems.
+
+---
+
 ## Selected Article / Blog / Tutorial
 
 Selected Source:
